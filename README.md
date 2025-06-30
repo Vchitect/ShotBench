@@ -50,11 +50,9 @@
 
 ## 🎬 Overview
 
-            <ul class="body-text" style="list-style-type: disc; padding-left: 1.2rem;">
-                <li>We introduce <strong>ShotBench</strong>, a comprehensive benchmark for evaluating VLMs’ understanding of cinematic language. It comprises over 3.5k expert-annotated QA pairs derived from images and video clips of over 200 critically acclaimed films (predominantly Oscar-nominated), covering eight distinct cinematography dimensions. This provides a rigorous new standard for assessing fine-grained visual comprehension in film.</li>
-                <li>We conducted an extensive evaluation of 24 leading VLMs, including prominent open-source and proprietary models, on ShotBench. Our results reveal a critical performance gap: even the most capable model, GPT-4o, achieves less than 60% average accuracy. This systematically quantifies the current limitations of VLMs in genuine cinematographic comprehension.</li>
-                <li>To address the identified limitations and facilitate future research, we constructed <strong>ShotQA</strong>, the first large-scale multimodal dataset for cinematography understanding, containing approximately 70k high-quality QA pairs. Leveraging ShotQA, we developed <strong>ShotVL</strong>, a novel VLM trained using Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO). ShotVL significantly surpasses all tested open-source and proprietary models, establishing a new state-of-the-art on ShotBench.</li>
-            </ul>
+- We introduce **ShotBench**, a comprehensive benchmark for evaluating VLMs’ understanding of cinematic language. It comprises over 3.5k expert-annotated QA pairs derived from images and video clips of over 200 critically acclaimed films (predominantly Oscar-nominated), covering eight distinct cinematography dimensions. This provides a rigorous new standard for assessing fine-grained visual comprehension in film.
+- We conducted an extensive evaluation of 24 leading VLMs, including prominent open-source and proprietary models, on ShotBench. Our results reveal a critical performance gap: even the most capable model, GPT-4o, achieves less than 60% average accuracy. This systematically quantifies the current limitations of VLMs in genuine cinematographic comprehension.
+- To address the identified limitations and facilitate future research, we constructed **ShotQA**, the first large-scale multimodal dataset for cinematography understanding, containing approximately 70k high-quality QA pairs. Leveraging ShotQA, we developed **ShotVL**, a novel VLM trained using Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO). ShotVL significantly surpasses all tested open-source and proprietary models, establishing a new **state-of-the-art** on ShotBench.
 
 ## 🔥 News
 
