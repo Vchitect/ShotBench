@@ -130,7 +130,12 @@
 </tr>  </tbody>
 </table></div>
 
+## Open-Sourcing Plan
 
+- [ ] Release Training & Evaluation code.
+- [ ] Release ShotQA-70k dataset.
+- [x] Release ShotBench test set.
+- [x] Release **ShotVL** models.
 
 ## BibTeX
 
