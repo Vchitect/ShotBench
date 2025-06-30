@@ -17,9 +17,13 @@
     <a href='https://liuziwei7.github.io/' target='_blank'>Ziwei Liu</a><sup>4&dagger;</sup>&emsp;
 </div>
 
+
+
 <div style="text-align:center;">
   <span>(* equal contributions)&nbsp;&nbsp;(† corresponding authors)</span>
 </div>
+
+
 
 <div style="text-align:center;">
   <sup>1</sup>Tongji University,&emsp;
@@ -27,6 +31,8 @@
   <sup>3</sup>Shanghai Artificial Intelligence Laboratory,&emsp;
   <sup>4</sup>S-Lab, Nanyang Technological University
 </div>
+
+
 <div style="text-align:center; margin:1rem 0;">
   <a href="https://arxiv.org/abs/2506.21356"
      target="_blank">Paper</a>&emsp;
@@ -38,6 +44,8 @@
      target="_blank">Project&nbsp;Page</a>
 </div>
 
+
+
 <div align="center">
   <iframe
     src="https://www.youtube.com/embed/MJBJlJEsPFM?rel=0&modestbranding=1&playsinline=1"
@@ -47,6 +55,8 @@
     style="width:75%;max-width:960px;aspect-ratio:16/9;border:0;">
   </iframe>
 </div>
+
+
 
 ## 🎬 Overview
 
