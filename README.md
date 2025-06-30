@@ -42,12 +42,12 @@
     <img src="https://img.shields.io/badge/Project&nbsp;Page-Website-lightgrey?logo=googlechrome" alt="Project Page">
   </a>
 </p>
-
 <p align="center">
   <a href="https://www.youtube.com/watch?v=MJBJlJEsPFM">
-    <img src="docs/shotbench_demo.gif" alt="ShotBench Demo (click to play)">
+    <img src="assets/shotbench_demo.gif" alt="ShotBench Demo (click to play)">
   </a>
 </p>
+
 
 ## 🎬 Overview
 - We introduce **ShotBench**, a comprehensive benchmark for evaluating VLMs’ understanding of cinematic language. It comprises over 3.5 k expert-annotated QA pairs derived from images and video clips of over 200 critically acclaimed films (predominantly Oscar-nominated), covering eight distinct cinematography dimensions. This provides a rigorous new standard for assessing fine-grained visual comprehension in film.
