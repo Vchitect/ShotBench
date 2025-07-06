@@ -56,9 +56,9 @@
 
 ## 🔥 News
 - **2025-07-2** Release [**ShotQA-70k**](https://huggingface.co/datasets/Vchitect/ShotQA) dataset.
-- **2025-06-27** Release ShotBench **test** split.  
-- **2025-06-27** Release our paper: **ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models**.  
-- **2025-06-27** Release **ShotVL-7B** and **ShotVL-3B**, these models are currently SOTA VLMs on cinematography understanding.
+- **2025-06-27** Release [**ShotBench**](https://huggingface.co/datasets/Vchitect/ShotBench) **test** split.  
+- **2025-06-27** Release our paper: [**ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models**](https://arxiv.org/abs/2506.21356).  
+- **2025-06-27** Release[ **ShotVL-7B**](https://huggingface.co/Vchitect/ShotVL-7B) and [**ShotVL-3B**](https://huggingface.co/Vchitect/ShotVL-3B), these models are currently SOTA VLMs on cinematography understanding.
 
 ## Evaluation Results
 
