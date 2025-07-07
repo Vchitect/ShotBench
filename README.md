@@ -55,10 +55,52 @@
 - To address the identified limitations and facilitate future research, we constructed **ShotQA**, the first large-scale multimodal dataset for cinematography understanding, containing approximately 70 k high-quality QA pairs. Leveraging ShotQA, we developed **ShotVL**, a novel VLM trained using Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO). ShotVL significantly surpasses all tested open-source and proprietary models, establishing a new **state-of-the-art** on ShotBench.
 
 ## 🔥 News
+- **2025-07-7** Release **Evaluation** code.
 - **2025-07-2** Release [**ShotQA-70k**](https://huggingface.co/datasets/Vchitect/ShotQA) dataset.
 - **2025-06-27** Release [**ShotBench**](https://huggingface.co/datasets/Vchitect/ShotBench) **test** split.  
 - **2025-06-27** Release our paper: [**ShotBench: Expert-Level Cinematic Understanding in Vision-Language Models**](https://arxiv.org/abs/2506.21356).  
 - **2025-06-27** Release[ **ShotVL-7B**](https://huggingface.co/Vchitect/ShotVL-7B) and [**ShotVL-3B**](https://huggingface.co/Vchitect/ShotVL-3B), these models are currently SOTA VLMs on cinematography understanding.
+
+## Installation
+
+```shell
+conda create -n shotbench python=3.10
+conda activate shotbench
+pip install -r requirements.txt
+```
+
+## Evaluation
+
+### 1.Preparing ShotBench Test Data
+
+```shell
+mkdir -p evaluation/data && cd evaluation/data
+huggingface-cli download --repo-type dataset Vchitect/ShotBench --local-dir ShotBench
+cd ShotBench
+tar -xvf images.tar
+tar -xvf videos.tar
+cd ../../../
+```
+
+### 2.Run Evaluation Code
+
+Evaluate ShotVL-3B with 4 GPUs:
+
+```shell
+accelerate launch --num_processes 4 evaluation/shotvl/evaluate.py --model ShotVL-3B --reasoning --output-dir eval_results
+```
+
+Evaluate ShotVL-7B with 4 GPUs:
+
+```shell
+accelerate launch --num_processes 4 evaluation/shotvl/evaluate.py --model ShotVL-7B --output-dir eval_results
+```
+
+### 3.Calculate Metrics
+
+```shell
+OPENAI_API_KEY=YOUR_OPENAI_APIKEY python evaluation/calculate_scores.py --prediction_path OUTPUT_FILE_PATH
+```
 
 ## Evaluation Results
 
@@ -133,7 +175,8 @@
 
 ## Open-Sourcing Plan
 
-- [ ] Release Training & Evaluation code.
+- [ ] Release Training code.
+- [x] Release Evaluation code.
 - [x] Release **ShotQA-70k** dataset.
 - [x] Release **ShotBench** test set.
 - [x] Release **ShotVL** models.
