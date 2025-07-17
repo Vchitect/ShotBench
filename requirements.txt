@@ -1,7 +1,7 @@
 accelerate==1.8.1
 annotated-types==0.7.0
 anyio==4.9.0
-av @ file:///home/conda/feedstock_root/build_artifacts/av_1751744976050/work
+av
 beautifulsoup4==4.13.4
 certifi==2025.6.15
 charset-normalizer==3.4.2
@@ -10,7 +10,7 @@ einops==0.8.1
 et_xmlfile==2.0.0
 exceptiongroup==1.3.0
 filelock==3.18.0
-flash_attn @ file:///mnt/hwfile/liuhongbo/ShotBench/flash_attn-2.7.4.post1%2Bcu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl#sha256=ffe17686fa1a0f288de9eae7c32af209d32a27b037ef28614f042b377af5b15a
+flash_attn
 fsspec==2025.5.1
 h11==0.16.0
 hf-xet==1.1.5
@@ -41,7 +41,7 @@ openai==1.93.0
 openpyxl==3.1.5
 packaging==25.0
 pandas==2.3.0
-pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1751481981736/work
+pillow
 psutil==7.0.0
 pydantic==2.11.7
 pydantic_core==2.33.2
