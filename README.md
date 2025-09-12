@@ -55,8 +55,7 @@
 - To address the identified limitations and facilitate future research, we constructed **ShotQA**, the first large-scale multimodal dataset for cinematography understanding, containing approximately 70 k high-quality QA pairs. Leveraging ShotQA, we developed **ShotVL**, a novel VLM trained using Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO). ShotVL significantly surpasses all tested open-source and proprietary models, establishing a new **state-of-the-art** on ShotBench.
 
 ## 🔥 News
-- **2025-09-12** We’re excited to announce a major upgrade to **ShotVL-7B-v1.1**! 🎉🎉
-   Its **open-ended question answering** capabilities have been significantly enhanced through training on our expanded **ShotQA-V1.1** dataset.
+- **2025-09-12** 🎉🎉We’re excited to announce a major upgrade to **ShotVL-7B-v1.1**! Its **open-ended question answering** capabilities have been significantly enhanced through training on our expanded **ShotQA-V1.1** dataset.
 - **2025-07-7** Release **Evaluation** code.
 - **2025-07-2** Release [**ShotQA-70k**](https://huggingface.co/datasets/Vchitect/ShotQA) dataset.
 - **2025-06-27** Release [**ShotBench**](https://huggingface.co/datasets/Vchitect/ShotBench) **test** split.  
